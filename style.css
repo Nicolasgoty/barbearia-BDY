@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(135, 46, 180, 0.61);
+        
+} 
+
+img {
+    position: absolute ;
+    top: 284px;
+    left: 40%;
+    width: 13%;
+}
+
+#yuri{
+width: 15%;
+top: 1155px;
+left: 5%;
+}
+
+p{
+background-color: blueviolet;    
+}
