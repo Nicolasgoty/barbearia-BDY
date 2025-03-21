@@ -1,5 +1,5 @@
 header{
-    background-color: rgba(135, 46, 180, 0.604);
+    background-color: rgba(14, 9, 17, 0.758);
 }
 
 nav li {
@@ -8,8 +8,25 @@ nav li {
 }
 nav a{
     text-transform: uppercase;
-    color:black;
+    color:rgb(0, 0, 0);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+img{
+    top: 284px;
+    width:  870px;
+    height: 720px;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+  
+}
+nav{
+    position: absolute;
+    top: 45px;
+    right: -283px;
+
 }

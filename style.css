@@ -1,11 +1,11 @@
 body {
-    background-color: rgba(135, 46, 180, 0.61);
+    background-color: rgba(110, 16, 157, 0.708);
         
 } 
 
 img {
     position: absolute ;
-    top: 327px;
+    top: 287px;
     left: 40%;
     width: 13%;
 }
@@ -13,6 +13,6 @@ img {
 #yuri{
 width: 15%;
 top: 1200px;
-left: 21%;
+left:28%;
 }
 
