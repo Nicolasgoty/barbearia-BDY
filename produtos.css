@@ -31,3 +31,13 @@ nav{
     right: -283px;
 
 }
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+.produtos li{
+    display: inline-block;
+    
+}
