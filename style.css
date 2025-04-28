@@ -154,5 +154,58 @@ td, th{
 .video{
     width: 560px;
     padding: 1em auto;
-    
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(14, 9, 17, 0.758); 
+    padding: 25px 0;
+}
+
+#loga{
+    width:250px;
+  margin: 0px 270px 0px ;
+  top: 100px;
+}
+.video{
+    top: 100px;
+    margin: 0px 200px 0px;
+}
+
+.mapa{
+    margin: 0px 260px 0px;
+}
+#yuri{
+    width: 15%;
+    top: 1200px;
+    left:28%;
+    }
+
+#podpah{
+    margin: 0px 0px 0px;
+    top: 1200px;
+    left:28%;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#b{
+    font-size: xx-large;
+    text-align: center;
+}
+
+#a{
+    font-size: x-large;
+}
+#x{
+    font-size: x-large;
+}
+
+#c{
+    font-size: x-large;
+    margin: 100px 100px 0px;
+  
 }
