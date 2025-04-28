@@ -20,7 +20,6 @@
          </nav>
         </div>
     </header>
-
     <main>
         <form>
             <label for="nomesobrenome">Nome e Sobrenome:</label>
@@ -34,25 +33,21 @@
 
             <label for="mensagem"> mensagem:</label>
             <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
-
             <div>
                 <p><i><h2>Como prefere nosso contato?</h2></i></p>
                 <label for="radio-email">
                     <input type="radio" name="contato" value="email" id="radio-email">
                     Email
                 </label>
-
                 <label for="radio-telefone">
                     <input type="radio" name="contato" value="telefone" id="radio-telefone">
                     telefone
                 </label>
-
                 <label for="radio-whatsapp">
                     <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
                     whatsapp
                 </label>
             </div>
-
             <div>
                 <p>Qual o horário prefere ser atendido?</p>
                 <select>
@@ -67,8 +62,42 @@
         </label>
             <input type="submit" value="Enviar formulário" class="enviar">
         </form>
-    </main>
+        <table>
+            <thead>
+            <tr>
+                <th>Dia</th>
+                <th>Horário</th>
+            </tr>                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>9h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Terça</td>
+                    <td>9h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>9h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quinta</td>
+                    <td>9h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>9h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sabado</td>
+                    <td>9h ~ 20h</td>
+                </tr>
 
+            </tbody>
+        </table>
+    </main>
     <footer>
         <img src="logo bdy.png">
         <p  class="copyright"> &copy; Copiright Nicolas A.Pereira - 2025 </p>

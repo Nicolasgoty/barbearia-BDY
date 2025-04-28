@@ -2,12 +2,10 @@ header{
     background-color: rgba(14, 9, 17, 0.758);
     padding: 20px;
 }
-
 nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
-
 nav a{
     text-transform: uppercase;
     color:rgb(0, 0, 0);
@@ -15,16 +13,13 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
-
 nav a:hover{
         color:#8204b8;
     text-decoration: underline;
 }
-
 #logo{
     width:250px;
 }
-
 img{
     top: 284px;
     width:  250px;
@@ -33,19 +28,16 @@ img{
     position: relative;
     width: 940px;
     margin: 0 auto;
-  
 }
 nav{
     position: absolute;
     top: 45px;
     right: -283px;
-
 }
 .produtos{
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
-    
+    padding: 50px 0;  
 }
 .produtos li{
     display: inline-block;
@@ -58,24 +50,19 @@ nav{
     border: 2px solid #000000;
     border-radius: 10px;
 }
-
 .produtos li:hover{
     border-color: #8204b8;
 }
-
 .produtos li:active{
     border-color:blue;
 }
-
 .produtos li:hover h2{
     font-size: 35px;
     color:rgba(0, 0, 255, 0.679);
 }
-
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
-
 }
 
 .produto-descricao{
@@ -86,7 +73,6 @@ nav{
     font-weight: bold;
     margin-top: top;
 }
-
 footer {
     text-align: center;
     background-color: rgba(14, 9, 17, 0.758); 
@@ -95,13 +81,11 @@ footer {
 footer img{
     width: 200px;
 }
-
 .copyright{
     color:black;
     font-size: 15px;
     margin: 20px 0 0;
 }
-
 main {
     width: 940px;
     margin: 0 auto;
@@ -109,6 +93,7 @@ main {
 form {
     margin:35px 0;
 }
+
 form label, form p{
     display:block;
     font-size: 25px;
@@ -125,6 +110,7 @@ form label, form p{
 .checkbox{
     margin: 30px 0;
 }
+
 .enviar{
     width: 40%;
     padding: 15px 0;
@@ -141,4 +127,32 @@ form label, form p{
 .enviar:hover{
     background-color: black;
     transform: scale(1.2);
+}
+
+table{
+   margin: 20px 0 40px;
+}
+thead{
+    background: rgba(14, 9, 17, 0.758);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+  padding: 12px 20px;  
+}
+
+.mapa{
+    padding: 3em 0;
+}
+.mapa p, h3{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video{
+    width: 560px;
+    padding: 1em auto;
+    
 }
